@@ -1,5 +1,6 @@
 package com.zhenhui.apps.cnbeta.ext.view;
 
+
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Paint;
@@ -161,15 +162,11 @@ public class BottomNavigationViewEx extends BottomNavigationView {
         /*
         1. get field in this class
         private final BottomNavigationMenuView mMenuView;
-
         2. get field in mButtons
         private BottomNavigationItemView[] mButtons;
-
         3. get mIcon in mButtons
         private ImageView mIcon
-
         4. set mIcon visibility gone
-
         5. change mItemHeight to only text size in mMenuView
          */
         // 1. get mMenuView
@@ -228,14 +225,11 @@ public class BottomNavigationViewEx extends BottomNavigationView {
         /*
         1. get field in this class
         private final BottomNavigationMenuView mMenuView;
-
         2. get field in mButtons
         private BottomNavigationItemView[] mButtons;
-
         3. set text size in mButtons
         private final TextView mLargeLabel
         private final TextView mSmallLabel
-
         4. change mItemHeight to only icon size in mMenuView
          */
         // 1. get mMenuView
@@ -319,17 +313,13 @@ public class BottomNavigationViewEx extends BottomNavigationView {
         /*
         1. get field in this class
         private final BottomNavigationMenuView mMenuView;
-
         2. get field in mButtons
         private BottomNavigationItemView[] mButtons;
-
         3. chang mShiftAmount to 0 in mButtons
         private final int mShiftAmount
-
         change mScaleUpFactor and mScaleDownFactor to 1f in mButtons
         private final float mScaleUpFactor
         private final float mScaleDownFactor
-
         4. change label font size in mButtons
         private final TextView mLargeLabel
         private final TextView mSmallLabel
@@ -396,7 +386,6 @@ public class BottomNavigationViewEx extends BottomNavigationView {
         /*
         1. get field in this class
         private final BottomNavigationMenuView mMenuView;
-
         2. change field mShiftingMode value in mMenuView
         private boolean mShiftingMode = true;
          */
@@ -417,10 +406,8 @@ public class BottomNavigationViewEx extends BottomNavigationView {
         /*
         1. get field in this class
         private final BottomNavigationMenuView mMenuView;
-
         2. get field in this mMenuView
         private BottomNavigationItemView[] mButtons;
-
         3. change field mShiftingMode value in mButtons
         private boolean mShiftingMode = true;
          */
@@ -444,10 +431,8 @@ public class BottomNavigationViewEx extends BottomNavigationView {
         /*
         1. get field in this class
         private final BottomNavigationMenuView mMenuView;
-
         2. get field in mMenuView
         private BottomNavigationItemView[] mButtons;
-
         3. get menu and traverse it to get the checked one
          */
 
@@ -500,11 +485,9 @@ public class BottomNavigationViewEx extends BottomNavigationView {
         /*
         1. get field in this class
         private final BottomNavigationMenuView mMenuView;
-
         2. get field in mMenuView
         private BottomNavigationItemView[] mButtons;
         private final OnClickListener mOnClickListener;
-
         3. call mOnClickListener.onClick();
          */
         // 1. get mMenuView

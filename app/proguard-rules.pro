@@ -26,3 +26,9 @@
 -keep public class android.support.design.internal.BottomNavigationPresenter { *; }
 -keep public class android.support.design.internal.BottomNavigationItemView { *; }
 
+# MobSDK
+-keep class com.mob.**{*;}
+-keep class cn.sharesdk.**{*;}
+-keep class cn.smssdk.**{*;}
+
+
