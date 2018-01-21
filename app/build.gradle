@@ -25,8 +25,9 @@ MobSDK {
     appKey "23d46e872a120"
     appSecret "b20dcd23661e4941c9db42cdc0c05713"
 
-    UMSSDK {}
-
+    UMSSDK {
+        gui false
+    }
     // UMSSDK依赖于ShareSDK和SMSSDK，故还需要引入这两个SDK
     ShareSDK {
         gui false
@@ -62,6 +63,7 @@ dependencies {
     //implementation 'com.mikepenz:pixeden-7-stroke-typeface:1.2.0.2@aar'
 
     implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'

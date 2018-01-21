@@ -6,7 +6,6 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.LayoutInflaterCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
@@ -14,8 +13,8 @@ import android.view.View;
 
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.iconics.IconicsDrawable;
-import com.mikepenz.iconics.context.IconicsLayoutInflater2;
 import com.mob.MobSDK;
+import com.mob.ums.UMSSDK;
 import com.zhenhui.apps.cnbeta.R;
 import com.zhenhui.apps.cnbeta.ext.view.BottomNavigationViewEx;
 import com.zhenhui.apps.cnbeta.view.BaseFragment;
@@ -90,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
         navigation.enableItemShiftingMode(false);
 
         initNavigationIcons();
+
+        if (!UMSSDK.amILogin()) {
+
+        }
 
     }
 

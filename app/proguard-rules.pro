@@ -32,3 +32,5 @@
 -keep class cn.smssdk.**{*;}
 
 
+#
+-dontwarn com.squareup.okhttp.**

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhenhui.apps.cnbeta.activity.LoginActivity"
+    android:focusableInTouchMode="true">
+
+    <android.widget.ImageView
+        android:id="@+id/login_back"
+        android:layout_width="?android:actionBarSize"
+        android:layout_height="?android:actionBarSize"
+        android:padding="4dp"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/layout_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_below="@+id/login_back"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <android.widget.ImageView
+            android:id="@+id/mobile_image_view"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_weight="0"/>
+        <android.widget.EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:hint="请输入手机号"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:padding="16dp"
+        android:layout_below="@+id/layout_mobile"
+        android:orientation="horizontal">
+        <android.widget.ImageView
+            android:id="@+id/password_image_view"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_weight="0"/>
+        <android.widget.EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_password"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

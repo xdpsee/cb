@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">cnbeta阅读器</string>
+    <string name="app_name">SENS</string>
 
     <string name="nav_title_home">首页</string>
     <string name="nav_title_videos">视频</string>
@@ -8,4 +8,18 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_mobile">请输入手机号码</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">登陆/注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_mobile">无效的手机号码</string>
+    <string name="error_invalid_password">密码长度太短</string>
+    <string name="error_login_failure">用户名或密码错误</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 </resources>
